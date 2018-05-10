@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(68, 68, 68);
+}
+body #wrapper{ margin: 0 auto; }
+
+nav{
+    width: 682px;
+    margin: 47px auto 36px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between
+}
+nav  a{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+}
+.page-image-title{ margin: 0; }
+
+.page-image-title img{ width: 100%; }
+
+#about_nav{
+    width: 1140px;
+    margin: 28px auto 0;
+    display: flex;
+    justify-content: space-between
+}
+#about_nav .site_map a{
+    text-decoration: none;
+    color: inherit;
+}
+#about_nav .social-icons a{ margin-right: 5px; }
+
+#about_nav .social-icons a:nth-child(5){ margin: 0; }
+
+#about_content{
+    width: 544px;
+    margin: 38px auto 0;
+    text-align: center;
+}
+#about_content h1{
+    margin: 0;
+    font-size: 34px;
+    font-weight: 400;
+}
+#about_content p{
+    color: rgb(102, 102, 102);
+    margin: 27px auto 0;
+}
+#leadership{
+    margin: 90px auto 0;
+    background-color: rgb(249, 249, 249);
+    text-align: center;
+    padding-bottom: 65px;
+}
+#leadership #leadership_title{
+    padding-top: 90px;
+    font-size: 34px;
+    font-weight: 100;
+}
+#leadership span{ font-weight: 600; }
+
+#leadership_tabs{ margin-top: 65px; }
+
+#leadership_tabs button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(3, 32, 42);
+    font-weight: 600;
+}
+#leadership_tabs button:focus{ outline:0; }
+
+#leadership_tabs .active-button{
+    color: rgb(0, 174, 239);
+    border-bottom: 2px solid rgb(0, 174, 239);
+}
+#leadership_tabs #management_button{ margin-right: 50px; }
+
+#management_directors_wrapper{
+    margin: 33px auto 0;
+    display: flex;
+    width: 1023px;
+}
+#leadership #management_section{
+    margin:  auto;
+    display: flex;
+    overflow-x: scroll;
+    overflow: hidden;
+    width: 945px;
+}
+#management_section .workers{
+    margin-right: 95px;
+}
+.workers img{
+    width: 165px;
+    height: 165px;
+}
+.worker-name{
+    display: block;
+    font-size: 18px;
+    color: rgb(3, 32, 42);
+    font-weight: 900;
+    margin-top: 14px;
+    white-space: nowrap;
+}
+.worker-position{
+    color: rgb(102, 102, 102);
+    margin-top: 10px;
+}
+#arrow_left{ margin-right: 30px; }
+
+#arrow_right{ margin-left: 40px; }
+
+#arrow_right:hover{ cursor: pointer; }
+
+#arrow_left:hover{ cursor: pointer; }
+
+#arrow_right, #arrow_left{
+    align-self: center;
+    padding-bottom: 75px;
+}
+#leadership #directors_section{
+    display: none;
+    margin: 0 auto;
+}
+#directors_section .directors, #directors_section .worker-position{
+    padding-right: 60px;
+}
+#difference_banner{
+    padding-top: 53px;
+    background-image: url("../images/make_a_difference.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#difference_banner #difference_content{
+    margin: 0 auto;
+    text-align: center;
+}
+#difference_banner #difference_title{
+   color: white;
+   font-size: 34px;
+   font-weight: 200;
+}
+#difference_banner #difference_title span{
+    font-weight: 600;
+}
+#difference_banner p{
+    margin: 18px auto 32px;
+    color: white;
+    font-weight: 400;
+    line-height: 1.6;
+}
+#difference_banner button{
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(0, 174, 239);
+    color: white;
+    font-weight: 600;
+    width: 140px;
+    height: 40px;
+    margin-bottom: 59px;
+}
+#difference_banner button:hover{ cursor: pointer; }
+
+#life_and_corporate_section{
+    width: 1140px;
+    margin: 91px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+#life_at #cell_phone_top{ margin-bottom: 130px; }
+
+#life_and_corporate_section #life_at_content_top{ margin: 70px 0 155px 0; }
+
+#life_at_content_top div, #life_at_content_bottom div{ font-size: 34px; }
+
+#life_and_corporate_section #life_at_content_bottom div:nth-child(2){ font-weight: 600; }
+
+footer #contact_section{
+    margin-top: 90px;
+    width: 100%;
+    height: 160px;
+    background-color: rgb(0, 174, 239);
+}
+#contact_section #contact_content{
+    width: 946px;
+    margin: 0 auto;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+#contact_content #mass_wrapper{
+    font-size: 18px;
+    color: white;
+}
+#contact_content button{
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: rgb(0, 174, 239);
+    font-weight: 600;
+    width: 140px;
+    height: 40px;
+    margin-bottom: 59px;
+}
+#contact_content button:hover{
+    cursor: pointer;
+}
+#bottom_footer{
+    width: 1140px;
+    margin: 85px auto 115px;
+    display: flex;
+    justify-content: space-between;
+}
+#bottom_footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#bottom_footer ul li, .bold{ margin-bottom: 30px; }
+
+#bottom_footer ul li:last-child{ margin: 0; }
+
+.bold{ font-weight: 600; }
+
+#bottom_footer ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+#social_network_footer{ margin-bottom: 56px;}
+
+#social_network_footer a{ margin-right: 20px; }
+
+#stay_connected_section p{ margin: 0; }
